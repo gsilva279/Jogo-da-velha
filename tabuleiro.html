@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jogo da velha</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1>Fizquierda</h1>
+  <input type="text" id="nomeJogador1" placeholder="Jogador1" class="p1">
+  <input type="text" id="nomeJogador2" placeholder="Jogador2" class="p2">
+  <button onclick="gravarNomes()" class="butao"> Iniciar jogo</button>
+  <p id="jogador1" class="j1">x</p> 
+  <p class="versus">versus</p>
+  <p id="jogador2" class="j2">o</p>
+  <table id="board">
+    <tr>
+      <td id="0"></td>
+      <td id="1"></td>
+      <td id="2"></td>
+    </tr>
+    <tr>
+      <td id="3"></td>
+      <td id="4"></td>
+      <td id="5"></td>
+    </tr>
+    <tr>
+      <td id="6"></td>
+      <td id="7"></td>
+      <td id="8"></td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>

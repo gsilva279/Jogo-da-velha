@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  background: #9FA0A5;
+  color: #000000;
+}
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  position: relative;
+  top: -90px;
+  background: #DDDDDD;
+}
+td{
+width: 100px;
+height: 100px;
+text-align: center;
+font-size: 50px;
+border: 1px solid black;
+}
+.p1{
+  position: relative;
+  left: 8px;
+  top: -10px;
+  width: 80px;
+}
+.p2{
+  position: relative;
+  left: 8px;
+  top: -10px;
+  width: 80px;
+}
+.butao{
+  position: relative;
+  left: 10px;
+  top: -10px;
+  height: 20px;
+}
+.j1{
+  position: relative;
+  left: -80px;
+  top: -10px;
+  color: blue;
+}
+.j2{
+  position: relative;
+  left: 80px;
+  top: -82px;
+  color: green;
+}
+.versus{
+  position: relative;
+  left: 0px;
+  top: -45px;
+  font-size: 15pt;
+  color: red;
+  font-family: monospace;
+}
